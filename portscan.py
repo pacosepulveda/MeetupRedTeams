@@ -8,7 +8,7 @@ host = "wpdemomeetup.eastus2.cloudapp.azure.com"
 puerto_inicial = 20
 puerto_final = 80   
 puertos_abiertos = []
-puerto_cerrados = []
+puertos_cerrados = []
 threads = []
 
 def scan(port):
