@@ -23,7 +23,7 @@ def scan(port):
         print ("-" * 60)
         s.close()
     else:
-        puerto_cerrados.append(port)
+        puertos_cerrados.append(port)
         s.close()
 
 for i in range(puerto_inicial, puerto_final+1):
